@@ -16,12 +16,11 @@ namespace FizzBuzzGame
 
             while (true)
             {
-                Console.WriteLine("Podaj liczbę:");
-                Console.WriteLine("Jeśli chcesz zakończyć grę naciśnij 'x'.");
+                Console.WriteLine("Podaj liczbę:");              
                 var userNumber = game.GetNumber();
                 var gameResult = game.Result(userNumber);
-
-                Console.WriteLine(gameResult);               
+                Console.WriteLine(gameResult);
+                Console.WriteLine("Jeśli chcesz zakończyć grę naciśnij 'x'.");
             }
         }
 
